@@ -7,8 +7,7 @@ ul#nav-main {
     box-shadow: 0 0 4px #000000;
     padding: 5px;
     z-index: 5;
-    position: fixed;
-    width: 100%;
+    position: sticky;
     left: 0;
     top: 0;
 }

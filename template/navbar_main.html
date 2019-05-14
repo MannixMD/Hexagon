@@ -1,6 +1,4 @@
 
-	
-
 	<ul id="nav-main" class="nav-main linklist" role="menubar">
 
 		<li id="quick-links" class="quick-links dropdown-container responsive-menu<!-- IF not S_DISPLAY_QUICK_LINKS and not S_DISPLAY_SEARCH --> hidden<!-- ENDIF -->" data-skip-responsive="true">
@@ -123,12 +121,13 @@
 								<i class="icon fa-sliders fa-fw" aria-hidden="true"></i><span>{L_PROFILE}</span>
 							</a>
 						</li>
+						<!-- IF U_USER_PROFILE -->
 						<li>
 							<a href="{U_USER_PROFILE}" title="{L_READ_PROFILE}" role="menuitem">
 								<i class="icon fa-user fa-fw" aria-hidden="true"></i><span>{L_READ_PROFILE}</span>
 							</a>
 						</li>
-
+						<!-- ENDIF -->
 						<!-- EVENT navbar_header_profile_list_after -->
 
 						<li class="separator"></li>
@@ -181,8 +180,3 @@
 		<!-- EVENT navbar_header_logged_out_content -->
 	<!-- ENDIF -->
 	</ul>
-
-
-
-	
-
